@@ -10,7 +10,7 @@
     "lint": "ng lint lib --fix"
   },
   "engines": {
-    "node": "^14.15.0 || ^16.10.0",
+    "node": "^16.13.0 || >=18.10.0",
     "yarn": ">=1.21.1 <2",
     "npm": "Please use yarn instead of NPM to install dependencies"
   },

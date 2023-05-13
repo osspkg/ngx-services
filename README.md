@@ -3,7 +3,7 @@
 ## Installation
 
 ```bash
-  $ npm i @uxwb/services --save
+  $ npm i @uxwb/ngx-services --save
 ```
 
 ## Config
@@ -17,13 +17,13 @@ class Config {
 ## Use
 
 ```typescript
-import { UxwbServicesModule } from '@uxwb/services';
+import { UXWBServicesModule } from '@uxwb/ngx-services';
 
 @NgModule({
   ...
   imports: [
     ...
-    UxwbServicesModule.forRoot({ ajaxPrefixUrl:'/api', webSocketUrl:'/ws' }),
+    UXWBServicesModule.forRoot({ ajaxPrefixUrl:'/api', webSocketUrl:'/ws' }),
   ],
   ...
 })

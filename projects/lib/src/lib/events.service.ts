@@ -11,7 +11,7 @@ export class EventsService {
   push(v: Event) {
     this._store$.next(v);
   }
-  
+
   pull(id: number): Observable<Event> {
     return this._store$.pipe(
       filter((v: Event) => v.id === id),
@@ -21,6 +21,5 @@ export class EventsService {
 
 export class Event {
   id!: number;
-
   value: any;
 }

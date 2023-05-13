@@ -56,7 +56,7 @@ export class RequestService {
 
   private _query(url: string, data?: object): string {
     const str: string[] = [];
-    for (let [key, value] of Object.entries(data || {})) {
+    for (const [key, value] of Object.entries(data || {})) {
       if (Array.isArray(value)) {
         Array.from(value).forEach((v, i) => {
           str.push(`${key}[${i}]=${encodeURIComponent(v)}`);

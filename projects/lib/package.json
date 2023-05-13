@@ -1,17 +1,17 @@
 {
-  "name": "@uxwb/services",
-  "version": "14.0.0",
+  "name": "@uxwb/ngx-services",
+  "version": "1.0.0",
   "description": "Services for Angular",
-  "author": "@uxwb <uxwb@dewep.pro> (https://github.com/deweppro)",
+  "author": "dewep team <uxwb@dewep.pro> (https://github.com/deweppro)",
   "license": "BSD-3-Clause",
   "homepage": "https://uxwb.ru",
-  "funding": "https://sobe.ru/na/X2R2S0s9u1d8",
+  "funding": "https://uxwb.ru/donate",
   "bugs": {
-    "url": "https://github.com/uxwb/services/issues"
+    "url": "https://github.com/uxwb/ngx-services/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/uxwb/services.git"
+    "url": "https://github.com/uxwb/ngx-services.git"
   },
   "keywords": [
     "angular2",
@@ -20,9 +20,9 @@
     "websocket"
   ],
   "peerDependencies": {
-    "@angular/common": "^14.0.0",
-    "@angular/core": "^14.0.0",
-    "rxjs": "~7.5.0"
+    "@angular/common": ">=14.0.0",
+    "@angular/core": ">=14.0.0",
+    "rxjs": ">=7.5.0"
   },
   "dependencies": {
     "tslib": "^2.3.0"

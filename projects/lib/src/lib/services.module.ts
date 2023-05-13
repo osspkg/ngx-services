@@ -8,7 +8,6 @@ import { WebsocketService, WS_URI } from './websocket.service';
 
 export class Config {
   ajaxPrefixUrl?:string;
-
   webSocketUrl?:string;
 }
 
@@ -17,8 +16,8 @@ export class Config {
     HttpClientModule,
   ],
 })
-export class UxwbServicesModule {
-  static forRoot(config?:Config): ModuleWithProviders<UxwbServicesModule> {
+export class UXWBServicesModule {
+  static forRoot(config?:Config): ModuleWithProviders<UXWBServicesModule> {
 
     const providers: Provider[] = [
       { provide: 'WINDOW', useValue: window },
@@ -39,7 +38,7 @@ export class UxwbServicesModule {
         { provide: WebsocketService },
       );
     }
-      
-    return { ngModule: UxwbServicesModule, providers: providers };
+
+    return { ngModule: UXWBServicesModule, providers: providers };
   }
 }

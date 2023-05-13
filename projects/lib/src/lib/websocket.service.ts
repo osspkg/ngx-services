@@ -7,11 +7,8 @@ export const WS_URI = new InjectionToken<string>('WS_URI');
 
 export class WebSocketMessage {
   e!: number;
-
   d!: any;
-
   err?: string;
-
   u?: string;
 }
 
